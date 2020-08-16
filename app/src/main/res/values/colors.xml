@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#082648</color>
+    <color name="colorPrimaryDark">#011935</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="b_g">#ffffff</color>
+    <color name="oreng">#bd732a</color>
+    <color name="color2">#000000</color>
+    <color name="color3">#21ADF4</color>
+    <color name="color4">#5cb2ec</color>
+    <color name="nav_mahv">#3d4b5268</color>
+    <color name="item_c">#7fc6ff</color>
+    <color name="item_nc">#51a7ee</color>
+    <color name="transparentW">#17203d</color>
+    <color name="birang">#00000000</color>
+
+</resources>

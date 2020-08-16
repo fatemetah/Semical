@@ -59,12 +59,6 @@ public class Mf extends AppCompatActivity implements DatePickerDialog.OnDateSetL
         mTaskListView = (ListView) findViewById(R.id.list_todo);
 
 
-//
-        SimpleDateFormat sdf = new SimpleDateFormat("MM/dd/yyyy");
-        date = DateFormat.getDateInstance().format(new Date());
-      //  theDate.setText(date);
-//
-
         findViewById(R.id.show_dialog).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash"
+    tools:context="com.example.family1.as_app.General">
+
+    <Button
+        android:id="@+id/Habit"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginTop="88dp"
+        android:background="@drawable/setting_bu"
+        android:gravity="left|center_vertical"
+        android:text="              Habit"
+        android:textAllCaps="false"
+        android:textColor="@color/color4"
+        android:textSize="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:id="@+id/HabitimageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@+id/Habit"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="12dp"
+        android:layout_marginStart="13dp"
+        android:background="@drawable/habit" />
+
+    <Button
+        android:id="@+id/Weekends"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Habit"
+        android:background="@drawable/setting_bu"
+        android:gravity="left|center_vertical"
+        android:text="              Weekends"
+        android:textAllCaps="false"
+        android:textColor="@color/color4"
+        android:textSize="25dp" />
+
+    <ImageView
+        android:id="@+id/WeekendsimageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@+id/Weekends"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="12dp"
+        android:layout_marginStart="13dp"
+        android:background="@drawable/weekends" />
+
+    <Button
+        android:id="@+id/Password"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="@drawable/setting_bu"
+        android:gravity="left|center_vertical"
+        android:text="              Password"
+        android:textAllCaps="false"
+        android:textColor="@color/color4"
+        android:textSize="25dp"
+        android:layout_marginTop="63dp"
+        android:layout_below="@+id/Weekends"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:id="@+id/PasswordimageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@+id/Password"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="12dp"
+        android:layout_marginStart="13dp"
+        android:background="@drawable/password" />
+
+    <Button
+        android:id="@+id/Getfree"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Password"
+        android:background="@drawable/setting_bu"
+        android:gravity="left|center_vertical"
+        android:text="              Get free"
+        android:textAllCaps="false"
+        android:textColor="@color/color4"
+        android:textSize="25dp" />
+
+    <ImageView
+        android:id="@+id/GetfreeimageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@+id/Getfree"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="12dp"
+        android:layout_marginStart="13dp"
+        android:background="@drawable/getfree" />
+
+</RelativeLayout>
